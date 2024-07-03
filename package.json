@@ -1,0 +1,33 @@
+{
+  "name": "slack-api",
+  "version": "1.0.1",
+  "description": "spotify token and search",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npm test"
+  },
+  "author": "lemonkazi",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^7.2.0",
+    "axios": "^1.7.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "^4.19.2",
+    "mongoose": "^5.1.5",
+    "node-fetch": "^3.3.2",
+    "qs": "^6.10.2",
+    "querystring": "~0.2.0",
+    "request": "~2.83.0",
+    "request-promise": "^4.2.5",
+    "twitter-lite": "^1.1.0"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}
